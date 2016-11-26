@@ -14,7 +14,8 @@
 
 <form action="Perkalian.php" method="POST">
 	<div align="center">
-		<h1> PERKALIAN </h1>
+		<h1> **PERKALIAN** </h1>
+		<br><br>
 		<input type="text" name="angka_pertama" id="angka_pertama" value="<?php echo $angka_pertama;?>"> x <input type="text" name="angka_kedua" id="angka_kedua" value="<?php echo $angka_kedua;?>"> = <input type="text" name="angka_hasil" id="angka_hasil" value="<?php echo $angka_hasil;?>">
 		<br>
 		<button type="submit" name="Hitung" id="Hitung">Hitung</button>
